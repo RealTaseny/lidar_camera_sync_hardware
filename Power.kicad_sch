@@ -1,0 +1,4501 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "eaf40774-d0c0-4782-9d37-76383ce8bb38")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_Diode_Schottky_AKL:D_Schottky_Generic"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky_Generic"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode, Generic Symbol, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky generic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_Generic_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -0.762) (xy 1.905 -1.27) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 0.635 1.27) (xy 0.635 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_Generic_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 1.778 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy -0.381 1.397) (xy 0 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 0) (xy 2.159 0.381) (xy 1.778 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_Generic_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "D_Schottky_Generic_1_2"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 0)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lidar_camera_sync:RT9013-33GB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.842 9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RT9013-33GB"
+				(at 0.254 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RT9013-33GB_0_0"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 3.81)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 1.27 180)
+					(length 3.81)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 -1.27 180)
+					(length 3.81)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RT9013-33GB_0_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lidar_camera_sync:TPS54560DDAR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.096 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS54560DDAR"
+				(at 0.508 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS54560DDAR_0_0"
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 3.81)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 1.27 0)
+					(length 3.81)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -1.27 0)
+					(length 3.81)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -3.81 0)
+					(length 3.81)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 3.81)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 3.81 180)
+					(length 3.81)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 1.27 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -1.27 180)
+					(length 3.81)
+					(name "COMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -3.81 180)
+					(length 3.81)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TPS54560DDAR_0_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 114.3 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "039c75ba-d702-470f-870a-81338bfd1143")
+	)
+	(junction
+		(at 151.13 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04dbdcf1-e573-449e-9a2a-640cc917f78f")
+	)
+	(junction
+		(at 176.53 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0aca827b-c930-45a3-9804-0f4964993b5d")
+	)
+	(junction
+		(at 163.83 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d7c8c91-2033-43e3-9191-b4b29598f256")
+	)
+	(junction
+		(at 99.06 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1008ef3c-0a09-43ca-94e6-a20c84925e95")
+	)
+	(junction
+		(at 105.41 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f3608b8-64ce-402f-ab7c-ef04083599f3")
+	)
+	(junction
+		(at 139.7 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3276583b-4bc4-4d59-8f4d-09de8b64c63c")
+	)
+	(junction
+		(at 143.51 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33b3a770-387a-4442-a153-966e0effa2a4")
+	)
+	(junction
+		(at 97.79 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "361e5373-c717-4745-aea3-1d5e78509064")
+	)
+	(junction
+		(at 143.51 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b67e6b7-4dc4-4fca-a5a8-fa23942fcfdf")
+	)
+	(junction
+		(at 170.18 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "466c553f-c667-4de7-b95a-01fb84948384")
+	)
+	(junction
+		(at 176.53 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e079b5b-a12e-4337-879b-118967e83942")
+	)
+	(junction
+		(at 157.48 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6006799b-996d-47b8-912e-3e9e53e9ba6c")
+	)
+	(junction
+		(at 91.44 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6409bb14-36b4-4267-9a0d-7eda34e38738")
+	)
+	(junction
+		(at 143.51 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "690d2897-6b8f-4cb2-89f6-03cfea0a5601")
+	)
+	(junction
+		(at 91.44 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c47fec0-71b9-4d93-9f67-8ed602633d95")
+	)
+	(junction
+		(at 99.06 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82bdc3ce-060f-4b3b-ad38-0d1c5eb61dfd")
+	)
+	(junction
+		(at 143.51 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87c068d1-a2c6-471d-b963-eac0e990a193")
+	)
+	(junction
+		(at 91.44 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a573418-cf9e-45ce-bdfa-d97857378507")
+	)
+	(junction
+		(at 143.51 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a42c6883-43fb-4a2f-9989-58c7cc69458e")
+	)
+	(junction
+		(at 157.48 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba1095d2-f9ec-4766-9b33-c223173787df")
+	)
+	(junction
+		(at 115.57 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca677f0a-44c9-4cdb-b3e8-8b567fa6cfa6")
+	)
+	(junction
+		(at 105.41 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d848a825-051b-40a3-8ff7-da8d4714f49b")
+	)
+	(junction
+		(at 143.51 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8b12cf1-77d5-4834-a681-55c564aae44a")
+	)
+	(junction
+		(at 105.41 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e57c6ba5-894e-43a7-8e37-ba41c8fe9fb1")
+	)
+	(junction
+		(at 158.75 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5d00a17-489a-4530-b86f-36d88439d278")
+	)
+	(junction
+		(at 97.79 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e722fa2e-e82e-4ae1-a0bb-c95b44e10613")
+	)
+	(junction
+		(at 85.09 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebca3baa-c650-44e3-9b9e-7f1153edb6f7")
+	)
+	(junction
+		(at 163.83 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3fbc7eb-7270-44a3-bee4-300293b89a93")
+	)
+	(junction
+		(at 91.44 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fabc1da9-d2db-4831-9eec-92dfd7d1153a")
+	)
+	(junction
+		(at 170.18 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb47b2c5-8d1f-4caf-b82c-4f6a39d23d8f")
+	)
+	(wire
+		(pts
+			(xy 97.79 93.98) (xy 105.41 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04766db7-e536-44bf-b969-18bc15e80e32")
+	)
+	(wire
+		(pts
+			(xy 143.51 62.23) (xy 147.32 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0765ab5c-8e26-4ff0-ac47-6a3248b10bb7")
+	)
+	(wire
+		(pts
+			(xy 91.44 127) (xy 91.44 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a4133b-2460-4607-95c5-aa84f69db861")
+	)
+	(wire
+		(pts
+			(xy 116.84 80.01) (xy 115.57 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09241627-3d70-44ff-8fc5-5eec8bf3583b")
+	)
+	(wire
+		(pts
+			(xy 99.06 127) (xy 116.84 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "144faeec-08ea-4f8d-83fe-039def33da41")
+	)
+	(wire
+		(pts
+			(xy 153.67 93.98) (xy 153.67 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18558f19-6fe5-4a06-b10d-9a1d1d9e03d7")
+	)
+	(wire
+		(pts
+			(xy 137.16 80.01) (xy 139.7 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f99ca1-0ac7-481c-bf17-7b1e0944743a")
+	)
+	(wire
+		(pts
+			(xy 114.3 142.24) (xy 99.06 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d7a39cf-ec18-4ced-96fb-e60a87dda45a")
+	)
+	(wire
+		(pts
+			(xy 143.51 74.93) (xy 157.48 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1efbd188-c553-43ab-9642-7bbd8e398dce")
+	)
+	(wire
+		(pts
+			(xy 91.44 87.63) (xy 91.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8c1b1f-6450-4458-b7b9-59d15cd33eb4")
+	)
+	(wire
+		(pts
+			(xy 97.79 74.93) (xy 105.41 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21dd89af-5750-4e3f-8cdf-6d1a47849f9d")
+	)
+	(wire
+		(pts
+			(xy 137.16 128.27) (xy 143.51 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f7c5aa-d871-4d25-8218-1e8081c72841")
+	)
+	(wire
+		(pts
+			(xy 99.06 142.24) (xy 91.44 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29d3d9cc-b11a-4108-8cd9-7b9d044dc826")
+	)
+	(wire
+		(pts
+			(xy 85.09 80.01) (xy 85.09 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aec9d62-5d75-405e-8af2-75270baa1141")
+	)
+	(wire
+		(pts
+			(xy 176.53 57.15) (xy 176.53 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bfe4505-fc4b-4be4-bd68-8defa42c1d47")
+	)
+	(wire
+		(pts
+			(xy 137.16 74.93) (xy 143.51 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec7ac94-7afe-487c-b193-14819be7284c")
+	)
+	(wire
+		(pts
+			(xy 127 86.36) (xy 127 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f14e19c-8063-4d4e-a6c2-8a99b302f946")
+	)
+	(wire
+		(pts
+			(xy 91.44 80.01) (xy 91.44 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "434796bc-20ed-4e91-a504-ddc6ec914ca4")
+	)
+	(wire
+		(pts
+			(xy 115.57 80.01) (xy 115.57 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "499893b4-fc06-4b92-966d-6224f0c2133a")
+	)
+	(wire
+		(pts
+			(xy 163.83 62.23) (xy 163.83 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb8f38b-7d7c-4938-af81-6e526063e400")
+	)
+	(wire
+		(pts
+			(xy 91.44 93.98) (xy 85.09 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e230714-1923-4849-9384-3ff511aab392")
+	)
+	(wire
+		(pts
+			(xy 85.09 93.98) (xy 85.09 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea3c651-664f-447a-ae86-d3d946f015c4")
+	)
+	(wire
+		(pts
+			(xy 151.13 137.16) (xy 151.13 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0d9e24-3734-450f-966e-7093e6d9db06")
+	)
+	(wire
+		(pts
+			(xy 153.67 86.36) (xy 153.67 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5e0141-c1f6-4cbe-b34a-d563d713ab65")
+	)
+	(wire
+		(pts
+			(xy 157.48 62.23) (xy 163.83 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d690cb-160e-4f3b-bfe4-ab5c3ee190e4")
+	)
+	(wire
+		(pts
+			(xy 151.13 128.27) (xy 151.13 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "569e8137-f2cf-4695-9a0d-b23cd1f3a493")
+	)
+	(wire
+		(pts
+			(xy 139.7 62.23) (xy 139.7 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d5544d7-91e8-4299-a600-9b2ee6d2c949")
+	)
+	(wire
+		(pts
+			(xy 163.83 62.23) (xy 170.18 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e3a89f0-d7d0-4627-bb37-a030fc6f7a04")
+	)
+	(wire
+		(pts
+			(xy 163.83 74.93) (xy 157.48 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60084bec-f05b-4c0c-9fbe-f215a3345b16")
+	)
+	(wire
+		(pts
+			(xy 91.44 93.98) (xy 97.79 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622f1875-1b1c-4f47-80df-4b587f816809")
+	)
+	(wire
+		(pts
+			(xy 114.3 72.39) (xy 116.84 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "630b4a87-c955-4ef9-ac37-af5704b92e92")
+	)
+	(wire
+		(pts
+			(xy 114.3 132.08) (xy 116.84 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636669cc-0944-47ef-8b1c-2790828b58fc")
+	)
+	(wire
+		(pts
+			(xy 137.16 77.47) (xy 143.51 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ea52f3-5932-4b45-a438-0750674b4d45")
+	)
+	(wire
+		(pts
+			(xy 111.76 132.08) (xy 114.3 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "675e8ebd-a4ff-4fe8-a1ea-f4aa2fe64f90")
+	)
+	(wire
+		(pts
+			(xy 176.53 95.25) (xy 176.53 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69908959-6ee2-471c-a0c9-cb54c518b953")
+	)
+	(wire
+		(pts
+			(xy 91.44 142.24) (xy 91.44 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aed9cdb-9480-4a6e-943c-7b7ae7c38a67")
+	)
+	(wire
+		(pts
+			(xy 143.51 99.06) (xy 143.51 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b0e7d94-f5da-4778-85af-1a143a8e3b73")
+	)
+	(wire
+		(pts
+			(xy 157.48 62.23) (xy 157.48 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e4838c6-1929-4562-b592-12d78cf906e3")
+	)
+	(wire
+		(pts
+			(xy 114.3 132.08) (xy 114.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73aaf06e-e6a2-4379-bacc-f12e331f63e2")
+	)
+	(wire
+		(pts
+			(xy 99.06 137.16) (xy 99.06 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752826d2-4158-485a-a1d1-80f77c2a3ec5")
+	)
+	(wire
+		(pts
+			(xy 170.18 62.23) (xy 170.18 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "754e3093-fb58-41d3-8cef-b2e852cca56d")
+	)
+	(wire
+		(pts
+			(xy 105.41 83.82) (xy 113.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75eb106d-a488-4648-b124-ce093180ba49")
+	)
+	(wire
+		(pts
+			(xy 176.53 62.23) (xy 176.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7606fbad-2519-489a-86e1-80ae68359f09")
+	)
+	(wire
+		(pts
+			(xy 123.19 62.23) (xy 114.3 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "780e99e0-ecc7-4c0d-b63a-a09b3b09ca8b")
+	)
+	(wire
+		(pts
+			(xy 143.51 67.31) (xy 143.51 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7885f063-d0a8-44a9-a6de-9d0578c719ab")
+	)
+	(wire
+		(pts
+			(xy 91.44 127) (xy 99.06 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d8f86e-0a87-481e-b654-1372187f7ac3")
+	)
+	(wire
+		(pts
+			(xy 105.41 92.71) (xy 105.41 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b2f8c67-69c5-4d22-878c-499c212f1647")
+	)
+	(wire
+		(pts
+			(xy 170.18 74.93) (xy 163.83 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d068ed9-2aaf-47f0-b00b-6e3dcfa3c030")
+	)
+	(wire
+		(pts
+			(xy 91.44 137.16) (xy 91.44 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d8e5a61-3d95-4bd0-9da2-0612bb41a78a")
+	)
+	(wire
+		(pts
+			(xy 105.41 83.82) (xy 105.41 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f9e0e25-4728-4fe2-9ef1-4fa91a871606")
+	)
+	(wire
+		(pts
+			(xy 163.83 72.39) (xy 163.83 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a35a26-fd10-4024-9eda-27c432f253cc")
+	)
+	(wire
+		(pts
+			(xy 143.51 77.47) (xy 143.51 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c2df663-efdc-4d89-864c-9bed8c53d70d")
+	)
+	(wire
+		(pts
+			(xy 153.67 100.33) (xy 143.51 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9382eb8a-7322-453d-8fc0-7ead5d49b102")
+	)
+	(wire
+		(pts
+			(xy 154.94 62.23) (xy 157.48 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9521d2d3-5c1d-49d9-b84c-d0db628e9e1d")
+	)
+	(wire
+		(pts
+			(xy 176.53 62.23) (xy 170.18 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd43517-921a-4a2b-a645-8a4fcde9f99e")
+	)
+	(wire
+		(pts
+			(xy 130.81 62.23) (xy 139.7 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c15ce19-c9da-440a-ac63-9b8fb764b3fa")
+	)
+	(wire
+		(pts
+			(xy 176.53 77.47) (xy 176.53 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a08a3f0f-61fd-44b7-acc3-ba2e904dcc6d")
+	)
+	(wire
+		(pts
+			(xy 85.09 87.63) (xy 85.09 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a206427c-71ba-4b96-b19a-2cb64512409f")
+	)
+	(wire
+		(pts
+			(xy 176.53 82.55) (xy 176.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c9b520-d234-4f6e-8f60-f710d9a3e2b6")
+	)
+	(wire
+		(pts
+			(xy 111.76 129.54) (xy 116.84 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5295131-e455-41cb-a20d-dd32b022331d")
+	)
+	(wire
+		(pts
+			(xy 143.51 62.23) (xy 139.7 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5422be5-5703-4be6-af59-7aec3854beb5")
+	)
+	(wire
+		(pts
+			(xy 143.51 88.9) (xy 143.51 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ffedf4-7116-4df7-9767-4a3e574b600c")
+	)
+	(wire
+		(pts
+			(xy 143.51 100.33) (xy 143.51 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af64b2d2-c26a-4e8f-aae0-b073460ad185")
+	)
+	(wire
+		(pts
+			(xy 139.7 72.39) (xy 137.16 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe5fb14-755b-4667-901d-eb7ac6d43fe4")
+	)
+	(wire
+		(pts
+			(xy 115.57 92.71) (xy 115.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff6e867-028d-4e78-bb84-cd107760f272")
+	)
+	(wire
+		(pts
+			(xy 97.79 80.01) (xy 97.79 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b29b7b95-67fc-4df9-baf6-e9a0de108882")
+	)
+	(wire
+		(pts
+			(xy 85.09 74.93) (xy 91.44 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d1697d-f728-4417-8429-50f8e0ad2e05")
+	)
+	(wire
+		(pts
+			(xy 153.67 77.47) (xy 143.51 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e535b9-f54f-4aca-862c-1e5a9a8fe5eb")
+	)
+	(wire
+		(pts
+			(xy 151.13 128.27) (xy 158.75 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9f5daf3-0b81-426c-b476-d518be068ac0")
+	)
+	(wire
+		(pts
+			(xy 113.03 77.47) (xy 113.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba40dee8-18ec-4a9b-9ebe-ea6721346b8c")
+	)
+	(wire
+		(pts
+			(xy 143.51 128.27) (xy 143.51 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf513b1-0ee7-4e44-8386-cbd28ff57bed")
+	)
+	(wire
+		(pts
+			(xy 158.75 124.46) (xy 158.75 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdaf25a3-4bc3-413f-8246-42e07d4da993")
+	)
+	(wire
+		(pts
+			(xy 143.51 137.16) (xy 143.51 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdcb69cc-1340-4dec-a5d8-94b12a32ac7a")
+	)
+	(wire
+		(pts
+			(xy 105.41 74.93) (xy 116.84 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beda0f66-bbe9-454b-9524-d4f766fefe11")
+	)
+	(wire
+		(pts
+			(xy 105.41 82.55) (xy 105.41 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3e8608d-c66d-4583-b89f-2710a0e58df5")
+	)
+	(wire
+		(pts
+			(xy 116.84 77.47) (xy 113.03 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f4cc35-913b-4cf4-abe2-86ee5a7734e9")
+	)
+	(wire
+		(pts
+			(xy 115.57 93.98) (xy 105.41 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb953b6-dc1d-439d-b406-fc25afd115bf")
+	)
+	(wire
+		(pts
+			(xy 158.75 129.54) (xy 158.75 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbfe1f43-38ad-4b2e-9cec-8aac728dae7b")
+	)
+	(wire
+		(pts
+			(xy 170.18 72.39) (xy 170.18 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdc5c53a-db3b-48b4-a9ea-901f5cf27ab3")
+	)
+	(wire
+		(pts
+			(xy 158.75 137.16) (xy 158.75 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb3c5bf-0745-4482-9dce-fef4d4ca5201")
+	)
+	(wire
+		(pts
+			(xy 143.51 128.27) (xy 151.13 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd936f0-acbd-4d4d-a0ef-57cdd22670b9")
+	)
+	(wire
+		(pts
+			(xy 143.51 142.24) (xy 143.51 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d266f9fe-8c2f-4928-a9d0-670fb29c4e65")
+	)
+	(wire
+		(pts
+			(xy 91.44 124.46) (xy 91.44 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58f6a98-100e-4f50-badd-63aab7463442")
+	)
+	(wire
+		(pts
+			(xy 158.75 146.05) (xy 158.75 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d757ff8b-0e76-4e61-ad01-5facdb658524")
+	)
+	(wire
+		(pts
+			(xy 97.79 87.63) (xy 97.79 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d849621a-9597-4cd6-b1b2-a0aaebd1e250")
+	)
+	(wire
+		(pts
+			(xy 114.3 62.23) (xy 114.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d94997bc-b5f2-4f03-97f7-a577c54f8b96")
+	)
+	(wire
+		(pts
+			(xy 127 93.98) (xy 115.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb1ca96-e11a-4fb3-9589-5739b6656867")
+	)
+	(wire
+		(pts
+			(xy 173.99 82.55) (xy 176.53 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f9b2df-a45c-4d8f-a05e-9ac964fb64b5")
+	)
+	(wire
+		(pts
+			(xy 99.06 127) (xy 99.06 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b52411-b825-409b-b78e-7c5535cd4358")
+	)
+	(wire
+		(pts
+			(xy 170.18 74.93) (xy 170.18 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f486767b-a3a7-4108-8282-1a35eb31ef21")
+	)
+	(wire
+		(pts
+			(xy 91.44 74.93) (xy 97.79 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f88f2d2a-6c43-4570-9d45-4b0f429cccb1")
+	)
+	(wire
+		(pts
+			(xy 157.48 72.39) (xy 157.48 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8060be-4381-4a24-858d-e6800b1bd4db")
+	)
+	(wire
+		(pts
+			(xy 143.51 142.24) (xy 151.13 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda28961-beda-49b0-a7f4-a2a31fe9e309")
+	)
+	(label "GND"
+		(at 158.75 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "13db6f69-15e8-40d8-b152-1178f11ab33d")
+	)
+	(label "VCC_3V3"
+		(at 158.75 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "212baa9a-9b29-492a-ba1c-b33b8879b82d")
+	)
+	(label "GND"
+		(at 85.09 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2cd17444-73be-44e9-9770-a7897a4e3817")
+	)
+	(label "GND"
+		(at 91.44 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3b9806eb-dd1e-4e80-b438-8cf01318e5ff")
+	)
+	(label "GND"
+		(at 176.53 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3cf81c3b-0901-41ec-884f-d305000a3953")
+	)
+	(label "GND"
+		(at 143.51 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "58440794-b10e-4f54-8770-fef5d36afb25")
+	)
+	(label "FB"
+		(at 139.7 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cef6efd-1d46-4d94-8550-ebfe62fc4786")
+	)
+	(label "VCC_5V0"
+		(at 111.76 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8ea63b45-cb44-4127-9f03-2f14c7f65302")
+	)
+	(label "VCC_3V3"
+		(at 241.3 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2a35495-12ea-48ae-893a-28ab12dca952")
+	)
+	(label "GND"
+		(at 170.18 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6d558cf-edc7-4f75-a5e1-41c56cd01cfc")
+	)
+	(label "VCC_5V0"
+		(at 91.44 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "caa654f1-5e01-4fe4-a502-7832a3ec83c7")
+	)
+	(label "GND"
+		(at 111.76 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cdcfee31-6084-4106-8e8b-f34b3c7c7a84")
+	)
+	(label "VCC_3V3"
+		(at 231.14 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d021f246-5923-4f7c-a2e1-a3550c51d06b")
+	)
+	(label "GND"
+		(at 143.51 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d543c275-c8dc-4221-888a-63e095df654a")
+	)
+	(label "FB"
+		(at 173.99 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed0b13c4-5916-4fbf-b01c-97a8f0b30173")
+	)
+	(label "VCC_5V0"
+		(at 176.53 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7c55506-6b1e-4220-9873-4345752598bb")
+	)
+	(label "VCC_3V3"
+		(at 215.9 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fdfdb66c-48b9-4c21-9459-42f18c59f815")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01a06e90-f3be-437a-8546-c406f109fdf7")
+		(property "Reference" "R10"
+			(at 117.094 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "243K"
+			(at 117.094 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.792 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be3d4b6b-42d1-4ea6-bc39-6fa2b4ef04bd")
+		)
+		(pin "1"
+			(uuid "3455cb81-6936-4604-aa89-d11384675dd5")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 151.13 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02ea5f7f-87b9-4cf4-9637-415ab0f46e27")
+		(property "Reference" "L1"
+			(at 151.13 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uH"
+			(at 151.13 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 151.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab4a7a62-d22b-4e1d-b171-3ccda325aaa2")
+		)
+		(pin "2"
+			(uuid "61cd1d3c-00d1-42fc-b54f-f12cc5579b30")
+		)
+		(instances
+			(project ""
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 143.51 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d405a14-8afc-4948-9eb2-7167e4cb7f60")
+		(property "Reference" "C7"
+			(at 143.764 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 143.764 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.4752 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 143.51 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20276542-b260-4b14-aa1d-44b7b57e3eb8")
+		)
+		(pin "1"
+			(uuid "ba8b191f-2486-4a92-8a85-917b38460e06")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 170.18 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ee0b07d-c499-4a17-a27d-72df6b02768a")
+		(property "Reference" "C14"
+			(at 170.434 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 170.434 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.1452 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 170.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f2e4754a-6675-4eb4-8f88-69a4d9f55558")
+		)
+		(pin "1"
+			(uuid "a0e4fc83-eb42-4fc2-8dc6-92769ac9f9db")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 215.9 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d132769-e81e-4ae5-bf26-e1bc2da91492")
+		(property "Reference" "C17"
+			(at 216.154 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 216.154 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 216.8652 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "af020f3b-09d1-4db2-8cf5-71edf2791974")
+		)
+		(pin "1"
+			(uuid "0e1bb61d-1cd6-4ac5-923b-c4d40cd1ba5c")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28b066e4-f2b2-43b7-8d2a-4bac936b87ff")
+		(property "Reference" "R7"
+			(at 160.274 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 160.274 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.972 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7357073-8df2-469a-9859-79f0a9fa928c")
+		)
+		(pin "1"
+			(uuid "81165034-28f6-47d9-bd98-4ceb0a93de8f")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 176.53 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "294c94df-e5cb-4ee4-a114-92071ab0e4b0")
+		(property "Reference" "R13"
+			(at 178.054 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10.2K"
+			(at 178.054 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 174.752 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 176.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "797ae606-c7e5-4427-ac1b-2540dcdd37ee")
+		)
+		(pin "1"
+			(uuid "16a61973-5092-4fe6-bb85-adf7c7421694")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 91.44 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4841d6fb-a89f-481b-b1fa-49c7cd76b653")
+		(property "Reference" "C5"
+			(at 91.694 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 91.694 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.4052 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 91.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5606052-c899-4b8c-b3cc-b851ad9d5940")
+		)
+		(pin "1"
+			(uuid "93504551-5e1c-4a24-9aed-28230cb84180")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 143.51 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4afbb4cd-6407-4beb-9211-365d2f24fc6e")
+		(property "Reference" "C15"
+			(at 143.764 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7nF"
+			(at 143.764 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.4752 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 143.51 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a913aef-7d1f-4c26-99d3-62f789adff3c")
+		)
+		(pin "1"
+			(uuid "47009a76-9d96-48b9-bee8-af777b4da382")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 99.06 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55ec181a-4aee-499b-bef8-ad53690a7d85")
+		(property "Reference" "C4"
+			(at 99.314 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 99.314 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.0252 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 99.06 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53dedbac-bea1-4e97-8b55-38552afbf6c4")
+		)
+		(pin "1"
+			(uuid "57c11406-1890-4944-a288-271bc963b60e")
+		)
+		(instances
+			(project ""
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57bf7440-8f73-4cbc-8ce8-034ff07d75d0")
+		(property "Reference" "C16"
+			(at 153.924 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47pF"
+			(at 153.924 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.6352 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2cf2a928-0c91-4330-b912-0ba6a6d6e872")
+		)
+		(pin "1"
+			(uuid "e5163b79-54d4-45b6-a7e2-7a12c6ef82f6")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lidar_camera_sync:RT9013-33GB")
+		(at 127 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c18957a-e491-44c5-b254-2ba30b6272d3")
+		(property "Reference" "U2"
+			(at 127 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RT9013-33GB"
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff9b18bc-9dbc-4c6f-be9a-afe3e2f630a0")
+		)
+		(pin "4"
+			(uuid "808cd1d2-6446-4997-b471-7889842eff80")
+		)
+		(pin "1"
+			(uuid "bc4adc64-425f-47c8-8f48-6da07222b593")
+		)
+		(pin "3"
+			(uuid "ea137ad5-25dc-4543-8ce4-5024d6378a87")
+		)
+		(pin "5"
+			(uuid "8798b471-108b-4012-947c-15b226c73ff1")
+		)
+		(instances
+			(project ""
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ed6981c-ede5-4295-afe8-8e1ae545c8d7")
+		(property "Reference" "R9"
+			(at 106.934 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "442K"
+			(at 106.934 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 103.632 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c4bd0ad-7a2a-4301-89ac-1e0753392104")
+		)
+		(pin "1"
+			(uuid "735745a4-61a9-41b7-afcb-c8fa14dcebcf")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 158.75 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72559ecc-92bb-4fcf-b020-75622f73b038")
+		(property "Reference" "D2"
+			(at 161.036 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_{Green}"
+			(at 161.036 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 158.75 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 158.75 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd7dfb92-9b2f-4393-8f75-8c6438fa2e6a")
+		)
+		(pin "2"
+			(uuid "69d3ead4-b2d0-4a6c-87ff-50e7cf8efd1b")
+		)
+		(instances
+			(project ""
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 91.44 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b4944d2-909c-4d5d-9575-873802b2b06f")
+		(property "Reference" "C9"
+			(at 91.694 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 91.694 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.4052 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2b2e20a5-a853-4ffd-9651-077bc0086175")
+		)
+		(pin "1"
+			(uuid "2fa830e8-ecff-4c04-af5c-4a48a9f5f4ba")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 97.79 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99b9e926-66b5-4303-940f-19748d4c3d2d")
+		(property "Reference" "C10"
+			(at 98.044 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 98.044 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 98.7552 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 97.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1328e185-23b9-4a98-aed6-be09f497f9dd")
+		)
+		(pin "1"
+			(uuid "388f1812-70e3-4003-90ae-5eff95326836")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 151.13 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bab00379-d22c-4448-a0d1-cadd48e7e56a")
+		(property "Reference" "C6"
+			(at 151.384 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 151.384 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.0952 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 151.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "586ce707-a0b9-4ccf-a950-4cc6262938a8")
+		)
+		(pin "1"
+			(uuid "19ab0eae-9f49-478e-a28d-311121c5cf15")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lidar_camera_sync:TPS54560DDAR")
+		(at 127 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c146a101-1220-47df-ad17-073b3418d918")
+		(property "Reference" "U3"
+			(at 127 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS54560DDAR"
+			(at 127 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87606982-ba5f-47dc-b70a-e0c5932b643b")
+		)
+		(pin "2"
+			(uuid "013abfe7-af08-4ddf-aaf6-a914438f9b18")
+		)
+		(pin "3"
+			(uuid "10669c36-4f15-4a2e-b3dd-feb2ab960224")
+		)
+		(pin "5"
+			(uuid "f3e1e220-e72b-4051-b5d5-e5e1073e36f4")
+		)
+		(pin "8"
+			(uuid "f390bfd7-50ea-4c3d-95d3-c349cca279b0")
+		)
+		(pin "9"
+			(uuid "fa72f8ba-69ae-41f9-a17d-4fd0fd90a969")
+		)
+		(pin "4"
+			(uuid "21640d3f-9b9d-4fbf-a015-b626bc997e1b")
+		)
+		(pin "7"
+			(uuid "7cd87014-f45e-4d43-836c-08e096f42768")
+		)
+		(pin "6"
+			(uuid "27e70004-f927-42b2-af15-21aa6d31242c")
+		)
+		(instances
+			(project ""
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3c7f296-b339-41ca-a6a0-93c074542ca5")
+		(property "Reference" "C8"
+			(at 85.344 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 85.344 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.0552 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 85.09 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bdda4caf-0902-4210-9552-145093f6d4c1")
+		)
+		(pin "1"
+			(uuid "7da7565c-92d1-45fb-9a85-7ac5ca59e947")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 127 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c88e460f-a7b6-4ef5-9259-41907213f775")
+		(property "Reference" "C11"
+			(at 125.476 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 134.366 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 61.2648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 127 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30a25714-aa1e-44e5-9d7d-1d5d66a719bc")
+		)
+		(pin "1"
+			(uuid "3eb37032-33ed-4c07-ad57-102767ee75e9")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 157.48 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfff37d3-f5db-4db6-958a-05bdb40fbf8d")
+		(property "Reference" "C12"
+			(at 157.734 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 157.734 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.4452 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 157.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7e4fdbd-a6bf-4029-b09b-6f22f1525f53")
+		)
+		(pin "1"
+			(uuid "4b417d69-daa5-4970-93d5-179de261afd3")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 163.83 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0b74f51-2e75-4925-a3ab-a3425080456f")
+		(property "Reference" "C13"
+			(at 164.084 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 164.084 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 164.7952 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 163.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9c94682-d738-4bfb-b2f4-d9077c400a13")
+		)
+		(pin "1"
+			(uuid "e8762004-5a80-4d58-8476-781964b69778")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 208.28 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9d2d5cd-831b-4797-81d8-97cfe573df03")
+		(property "Reference" "C18"
+			(at 208.534 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 208.534 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.2452 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f2a71314-bb7c-4fea-b4f7-e5a5d70489c0")
+		)
+		(pin "1"
+			(uuid "5182e7cc-1b86-4960-a1f0-d3792af62266")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 176.53 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da24f542-6d28-4612-aaa4-ae60c1da0e3a")
+		(property "Reference" "R12"
+			(at 178.054 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "53.6K"
+			(at 178.054 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 174.752 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 176.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac683565-04ad-416e-a67a-6e521f39cf88")
+		)
+		(pin "1"
+			(uuid "8a6d95e7-6366-44b3-9745-5542597ea538")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 143.51 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7049c5e-c63a-408e-89ac-749731ff6646")
+		(property "Reference" "R11"
+			(at 145.034 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "16.9K"
+			(at 145.034 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.732 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "196f745e-8099-4b3f-84ad-d08d6b0c6c67")
+		)
+		(pin "1"
+			(uuid "4d10e18c-703e-4ce7-8693-17451d8fd353")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_Schottky_AKL:D_Schottky_Generic")
+		(at 143.51 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e81e8880-600a-4a4f-b891-49098302ff09")
+		(property "Reference" "D3"
+			(at 146.05 69.5324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B560C"
+			(at 146.05 72.0724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, Generic Symbol, Alternate KiCAD Library"
+			(at 143.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "051953eb-b030-43e3-996c-55ace8a2903d")
+		)
+		(pin "2"
+			(uuid "a5221d27-8157-494b-b1ea-a5ed1bae7863")
+		)
+		(instances
+			(project ""
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edd94948-7931-40c7-a30e-654b6b556544")
+		(property "Reference" "R8"
+			(at 106.934 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "90.9K"
+			(at 106.934 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 103.632 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c6bef912-7213-4d4f-846d-fcd558cab308")
+		)
+		(pin "1"
+			(uuid "9769aeff-f090-45d3-bad2-48764d8ab1ee")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 114.3 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fababeb6-64c8-48b9-b8d5-1458c3726cc2")
+		(property "Reference" "R6"
+			(at 115.824 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 115.824 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 112.522 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2eaa64dd-452a-4a93-8578-766438416816")
+		)
+		(pin "1"
+			(uuid "8bf8cd3a-51da-4690-a2c8-b537994d6710")
+		)
+		(instances
+			(project ""
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

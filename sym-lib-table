@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "lidar_camera_sync")(type "KiCad")(uri "${KIPRJMOD}/lidar_camera_sync.kicad_sym")(options "")(descr ""))
+)

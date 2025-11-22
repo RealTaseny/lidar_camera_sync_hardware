@@ -2,9 +2,215 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 4d41fa76-12ab-4867-bf30-96d46704f2ab)
+	(uuid "4d41fa76-12ab-4867-bf30-96d46704f2ab")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 129.794 36.322)
+		(size 61.976 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3")
+		(property "Sheetname" "Power"
+			(at 129.794 35.6104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 129.794 78.8166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 47.244 36.068)
+		(size 56.134 42.164)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "66dd57c5-fcd2-4ccb-bf38-17b55711c2d9")
+		(property "Sheetname" "MCU"
+			(at 47.244 35.3564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 47.244 78.8166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" passive
+			(at 103.378 58.42 0)
+			(uuid "2740c5cf-d308-4d83-9a0c-8d4ad42d9bcd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_CH1" output
+			(at 93.98 78.232 270)
+			(uuid "46e7bfc4-edba-4f15-80e5-114e0b3008bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_CH2" output
+			(at 90.17 78.232 270)
+			(uuid "c9aa5836-0038-4ba8-97e1-c57076ec3f1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STATE_LED" output
+			(at 86.36 78.232 270)
+			(uuid "7137d06b-7c80-4238-bb51-81ccd488a6dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART2_RXD" input
+			(at 78.74 78.232 270)
+			(uuid "6ed9f66a-0f6c-4b6f-a305-622cbf265819")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART2_TXD" output
+			(at 74.93 78.232 270)
+			(uuid "93c6cc48-676c-48ab-8d26-ac9aa01d2b42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC_3V3" input
+			(at 103.378 54.61 0)
+			(uuid "f0248b05-018c-4a6f-85b0-a83c2602f39c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_5V0" input
+			(at 103.378 50.8 0)
+			(uuid "39736901-19c5-44c3-ad1e-fbd0893e8896")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 47.498 91.44)
+		(size 55.88 41.148)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "7a4cebd7-c810-4cc3-a455-f682cc3c6ad0")
+		(property "Sheetname" "Peripheral"
+			(at 47.498 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripheral.kicad_sch"
+			(at 47.498 133.1726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
