@@ -868,7 +868,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -5.842 9.144 0)
+				(at 0 9.144 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -883,7 +883,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "lidar_camera_sync:SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1022,7 +1022,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -6.096 9.398 0)
+				(at 0 9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1037,7 +1037,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "lidar_camera_sync:SOIC8-4.9x5.4_P1.27"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3234,7 +3234,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01a06e90-f3be-437a-8546-c406f109fdf7")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 117.094 87.376 0)
 			(effects
 				(font
@@ -3252,7 +3252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 113.792 88.9 90)
 			(effects
 				(font
@@ -3288,7 +3288,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3320,7 +3320,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lidar_camera_sync:SPM7054VT-100M-D"
 			(at 151.13 62.23 0)
 			(effects
 				(font
@@ -3371,7 +3371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b4ece70-3466-4bb0-a163-ee0007996a0b")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 223.52 71.755 0)
 			(effects
 				(font
@@ -3421,7 +3421,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -3436,7 +3436,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d405a14-8afc-4948-9eb2-7167e4cb7f60")
-		(property "Reference" "C7"
+		(property "Reference" "C11"
 			(at 143.764 131.064 0)
 			(effects
 				(font
@@ -3454,7 +3454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 144.4752 137.16 0)
 			(effects
 				(font
@@ -3490,7 +3490,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "C7")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -3505,7 +3505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ee0b07d-c499-4a17-a27d-72df6b02768a")
-		(property "Reference" "C14"
+		(property "Reference" "C16"
 			(at 170.434 66.294 0)
 			(effects
 				(font
@@ -3523,7 +3523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 171.1452 72.39 0)
 			(effects
 				(font
@@ -3559,7 +3559,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "C14")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -3574,7 +3574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11c8bf1d-3a7b-4444-8602-76558348b866")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG03"
 			(at 223.52 86.995 0)
 			(effects
 				(font
@@ -3624,7 +3624,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "#FLG05")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -3639,7 +3639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "164e224a-0b3a-4692-b722-685a57b67e59")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG02"
 			(at 223.52 76.835 0)
 			(effects
 				(font
@@ -3689,7 +3689,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "#FLG03")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -3704,7 +3704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d132769-e81e-4ae5-bf26-e1bc2da91492")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 216.154 117.094 0)
 			(effects
 				(font
@@ -3722,7 +3722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 216.8652 123.19 0)
 			(effects
 				(font
@@ -3758,7 +3758,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3773,7 +3773,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28b066e4-f2b2-43b7-8d2a-4bac936b87ff")
-		(property "Reference" "R7"
+		(property "Reference" "R11"
 			(at 160.274 131.826 0)
 			(effects
 				(font
@@ -3791,7 +3791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 156.972 133.35 90)
 			(effects
 				(font
@@ -3827,7 +3827,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "R7")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3860,7 +3860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 174.752 91.44 90)
 			(effects
 				(font
@@ -3929,7 +3929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 242.2652 123.19 0)
 			(effects
 				(font
@@ -3980,7 +3980,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4841d6fb-a89f-481b-b1fa-49c7cd76b653")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 91.694 131.064 0)
 			(effects
 				(font
@@ -3998,7 +3998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 92.4052 137.16 0)
 			(effects
 				(font
@@ -4034,7 +4034,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4049,7 +4049,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4afbb4cd-6407-4beb-9211-365d2f24fc6e")
-		(property "Reference" "C15"
+		(property "Reference" "C10"
 			(at 143.764 92.964 0)
 			(effects
 				(font
@@ -4067,7 +4067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 144.4752 99.06 0)
 			(effects
 				(font
@@ -4103,7 +4103,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "C15")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -4118,7 +4118,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55b90978-e16f-47f9-a399-5e65a41abb3e")
-		(property "Reference" "C28"
+		(property "Reference" "C23"
 			(at 254.254 117.094 0)
 			(effects
 				(font
@@ -4136,7 +4136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 254.9652 123.19 0)
 			(effects
 				(font
@@ -4172,7 +4172,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "C28")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -4187,7 +4187,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55ec181a-4aee-499b-bef8-ad53690a7d85")
-		(property "Reference" "C4"
+		(property "Reference" "C8"
 			(at 99.314 131.064 0)
 			(effects
 				(font
@@ -4205,7 +4205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 100.0252 137.16 0)
 			(effects
 				(font
@@ -4241,7 +4241,7 @@
 		(instances
 			(project ""
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "C4")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4256,7 +4256,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57bf7440-8f73-4cbc-8ce8-034ff07d75d0")
-		(property "Reference" "C16"
+		(property "Reference" "C13"
 			(at 153.924 87.884 0)
 			(effects
 				(font
@@ -4274,7 +4274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 154.6352 93.98 0)
 			(effects
 				(font
@@ -4310,7 +4310,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "C16")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -4326,7 +4326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c18957a-e491-44c5-b254-2ba30b6272d3")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 127 118.11 0)
 			(effects
 				(font
@@ -4342,7 +4342,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lidar_camera_sync:SOT-23-5"
 			(at 127 129.54 0)
 			(effects
 				(font
@@ -4387,7 +4387,7 @@
 		(instances
 			(project ""
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4402,7 +4402,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ed6981c-ede5-4295-afe8-8e1ae545c8d7")
-		(property "Reference" "R9"
+		(property "Reference" "R6"
 			(at 106.934 77.216 0)
 			(effects
 				(font
@@ -4420,7 +4420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 103.632 78.74 90)
 			(effects
 				(font
@@ -4456,7 +4456,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "R9")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4489,7 +4489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 229.5652 123.19 0)
 			(effects
 				(font
@@ -4558,7 +4558,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 158.75 142.24 0)
 			(effects
 				(font
@@ -4618,7 +4618,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b4944d2-909c-4d5d-9575-873802b2b06f")
-		(property "Reference" "C9"
+		(property "Reference" "C5"
 			(at 91.694 81.534 0)
 			(effects
 				(font
@@ -4636,7 +4636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 92.4052 87.63 0)
 			(effects
 				(font
@@ -4672,7 +4672,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "C9")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4687,7 +4687,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99b9e926-66b5-4303-940f-19748d4c3d2d")
-		(property "Reference" "C10"
+		(property "Reference" "C7"
 			(at 98.044 81.534 0)
 			(effects
 				(font
@@ -4705,7 +4705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 98.7552 87.63 0)
 			(effects
 				(font
@@ -4741,7 +4741,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "C10")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4774,7 +4774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 223.2152 123.19 0)
 			(effects
 				(font
@@ -4843,7 +4843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 235.9152 123.19 0)
 			(effects
 				(font
@@ -4894,7 +4894,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bab00379-d22c-4448-a0d1-cadd48e7e56a")
-		(property "Reference" "C6"
+		(property "Reference" "C12"
 			(at 151.384 131.064 0)
 			(effects
 				(font
@@ -4912,7 +4912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 152.0952 137.16 0)
 			(effects
 				(font
@@ -4948,7 +4948,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "C6")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4963,7 +4963,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c146a101-1220-47df-ad17-073b3418d918")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 127 66.294 0)
 			(effects
 				(font
@@ -4979,7 +4979,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lidar_camera_sync:SOIC8-4.9x5.4_P1.27"
 			(at 127 76.2 0)
 			(effects
 				(font
@@ -5036,7 +5036,7 @@
 		(instances
 			(project ""
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5051,7 +5051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3c7f296-b339-41ca-a6a0-93c074542ca5")
-		(property "Reference" "C8"
+		(property "Reference" "C4"
 			(at 85.344 81.534 0)
 			(effects
 				(font
@@ -5069,7 +5069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 86.0552 87.63 0)
 			(effects
 				(font
@@ -5105,7 +5105,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "C8")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5120,7 +5120,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c88e460f-a7b6-4ef5-9259-41907213f775")
-		(property "Reference" "C11"
+		(property "Reference" "C9"
 			(at 125.476 60.96 90)
 			(effects
 				(font
@@ -5138,7 +5138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 130.81 61.2648 0)
 			(effects
 				(font
@@ -5174,7 +5174,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "C11")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5189,7 +5189,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfff37d3-f5db-4db6-958a-05bdb40fbf8d")
-		(property "Reference" "C12"
+		(property "Reference" "C14"
 			(at 157.734 66.294 0)
 			(effects
 				(font
@@ -5207,7 +5207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 158.4452 72.39 0)
 			(effects
 				(font
@@ -5243,7 +5243,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "C12")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5258,7 +5258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0b74f51-2e75-4925-a3ab-a3425080456f")
-		(property "Reference" "C13"
+		(property "Reference" "C15"
 			(at 164.084 66.294 0)
 			(effects
 				(font
@@ -5276,7 +5276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 164.7952 72.39 0)
 			(effects
 				(font
@@ -5312,7 +5312,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "C13")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -5327,7 +5327,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9d2d5cd-831b-4797-81d8-97cfe573df03")
-		(property "Reference" "C18"
+		(property "Reference" "C17"
 			(at 209.804 117.094 0)
 			(effects
 				(font
@@ -5345,7 +5345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 210.5152 123.19 0)
 			(effects
 				(font
@@ -5381,7 +5381,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "C18")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -5414,7 +5414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 174.752 73.66 90)
 			(effects
 				(font
@@ -5465,7 +5465,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7049c5e-c63a-408e-89ac-749731ff6646")
-		(property "Reference" "R11"
+		(property "Reference" "R10"
 			(at 145.034 83.566 0)
 			(effects
 				(font
@@ -5483,7 +5483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 141.732 85.09 90)
 			(effects
 				(font
@@ -5519,7 +5519,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "R11")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5534,7 +5534,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e81e8880-600a-4a4f-b891-49098302ff09")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 145.542 67.056 90)
 			(effects
 				(font
@@ -5552,7 +5552,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMC"
 			(at 143.51 68.58 0)
 			(effects
 				(font
@@ -5588,7 +5588,7 @@
 		(instances
 			(project ""
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5603,7 +5603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "edd94948-7931-40c7-a30e-654b6b556544")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 106.934 87.376 0)
 			(effects
 				(font
@@ -5621,7 +5621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 103.632 88.9 90)
 			(effects
 				(font
@@ -5657,7 +5657,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5672,7 +5672,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fababeb6-64c8-48b9-b8d5-1458c3726cc2")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 115.824 136.906 0)
 			(effects
 				(font
@@ -5690,7 +5690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 112.522 138.43 90)
 			(effects
 				(font
@@ -5726,7 +5726,7 @@
 		(instances
 			(project ""
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5741,7 +5741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff73cf7a-f262-483e-9bbc-bab1536a1354")
-		(property "Reference" "C30"
+		(property "Reference" "C24"
 			(at 264.414 117.094 0)
 			(effects
 				(font
@@ -5759,7 +5759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 265.1252 123.19 0)
 			(effects
 				(font
@@ -5795,7 +5795,7 @@
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "C30")
+					(reference "C24")
 					(unit 1)
 				)
 			)

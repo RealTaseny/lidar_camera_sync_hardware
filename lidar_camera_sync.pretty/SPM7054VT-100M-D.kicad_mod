@@ -1,0 +1,235 @@
+(footprint "SPM7054VT-100M-D"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f2c62bd9-20d6-49d4-8847-092fccce2683")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SPM7054VT-100M-D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "284cdff1-bde5-4a48-8373-fb3dba5dd228")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd9caf83-e8fd-4cf3-ace3-993e862c9476")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a022ca39-b0af-496a-8782-b2ea33a74974")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.75 -3.5)
+		(end -3.75 -1.97)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3a597fbb-7ccb-4d4d-8df3-fa9b957223a1")
+	)
+	(fp_line
+		(start -3.75 -3.5)
+		(end 3.75 -3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4a116fa-9dc8-4f7e-b51c-f745c0ef1b72")
+	)
+	(fp_line
+		(start -3.75 3.5)
+		(end -3.75 1.97)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "843cd2c9-1e1e-4834-b22b-3945b6368f6b")
+	)
+	(fp_line
+		(start -3.75 3.5)
+		(end 3.75 3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "832f7259-bc87-4e08-ab67-0ff1510249cb")
+	)
+	(fp_line
+		(start 3.75 -3.5)
+		(end 3.75 -1.97)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2abac6d-b8ed-4bd6-ba9c-68e467a23383")
+	)
+	(fp_line
+		(start 3.75 3.5)
+		(end 3.75 1.97)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6deb8e07-d9e3-4ed0-a4fd-70a95a876bc2")
+	)
+	(fp_line
+		(start -4.65 -3.75)
+		(end -4.65 3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "24505862-9738-46b5-9c6b-d47431b1ff66")
+	)
+	(fp_line
+		(start -4.65 3.75)
+		(end 4.65 3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9fd6cdd3-fedd-42b7-bbaa-ce0179b7e6dd")
+	)
+	(fp_line
+		(start 4.65 -3.75)
+		(end -4.65 -3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1445203a-b702-4bdb-951f-4247573709a8")
+	)
+	(fp_line
+		(start 4.65 3.75)
+		(end 4.65 -3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6e672428-e4fd-41ec-be4f-bdf6f36bd57c")
+	)
+	(fp_line
+		(start -3.75 -3.5)
+		(end -3.75 3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6b4f5445-433c-4e9a-8808-d93f497a3533")
+	)
+	(fp_line
+		(start -3.75 -3.5)
+		(end 3.75 -3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "573d07d6-2d2b-43c4-84c1-76b4d561689d")
+	)
+	(fp_line
+		(start -3.75 3.5)
+		(end 3.75 3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7c81d699-6beb-4427-afd9-b082de7a04ee")
+	)
+	(fp_line
+		(start 3.75 -3.5)
+		(end 3.75 3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "320a4be2-952d-4b66-a29a-112d87f1fa8e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cffea0de-c6ee-4e74-bbd6-7ffb47eeec83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.975 0)
+		(size 2.85 3.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "6e0e06a4-246d-41fc-a7b6-c1bc83078869")
+	)
+	(pad "2" smd rect
+		(at 2.975 0)
+		(size 2.85 3.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "91f23b2b-1d43-4847-86bf-0b48e452bcf0")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D_Models/SPM7054VT-100M-D.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
