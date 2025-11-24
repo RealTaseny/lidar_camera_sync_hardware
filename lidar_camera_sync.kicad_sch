@@ -195,16 +195,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 78.74) (xy 86.36 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d996ba68-6d3f-4892-843e-07be36b26078")
-	)
-	(wire
-		(pts
 			(xy 104.14 50.8) (xy 107.95 50.8)
 		)
 		(stroke
@@ -369,16 +359,6 @@
 				(justify left)
 			)
 		)
-		(pin "STATE_LED" output
-			(at 86.36 78.74 270)
-			(uuid "7137d06b-7c80-4238-bb51-81ccd488a6dc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "USART2_RXD" input
 			(at 78.74 78.74 270)
 			(uuid "6ed9f66a-0f6c-4b6f-a305-622cbf265819")
@@ -461,16 +441,6 @@
 				(justify left top)
 			)
 		)
-		(pin "LED_DIN" input
-			(at 86.36 91.44 90)
-			(uuid "a4317416-c043-420d-9372-40ea804a66ef")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "R1OUT" output
 			(at 78.74 91.44 90)
 			(uuid "58ed66cd-d0c5-4d8f-903f-29c90a8fd07b")
@@ -484,16 +454,6 @@
 		(pin "T1IN" input
 			(at 74.93 91.44 90)
 			(uuid "33457b4d-0143-4d88-8761-cb286359bf54")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDC_12V0" output
-			(at 104.14 109.22 0)
-			(uuid "0d1563ff-0605-4f1d-ad4a-4cd7e97ff1f5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -544,6 +504,16 @@
 		(pin "VCC_5V0" input
 			(at 104.14 97.79 0)
 			(uuid "c2965ffc-cc7b-43a2-8724-58bbb40e73ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V_CAMERA" output
+			(at 104.14 109.22 0)
+			(uuid "9c5d546d-3d00-4998-9722-dc8c8f2cd4f5")
 			(effects
 				(font
 					(size 1.27 1.27)
