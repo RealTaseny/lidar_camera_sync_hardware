@@ -1653,16 +1653,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 109.22) (xy 264.16 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c056cb1-d54f-4059-b625-658e16c36379")
-	)
-	(wire
-		(pts
 			(xy 222.25 113.03) (xy 228.6 113.03)
 		)
 		(stroke
@@ -2090,16 +2080,6 @@
 			(type default)
 		)
 		(uuid "675e8ebd-a4ff-4fe8-a1ea-f4aa2fe64f90")
-	)
-	(wire
-		(pts
-			(xy 264.16 123.19) (xy 264.16 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68ebe114-b08f-4945-8c38-2041cf7ab657")
 	)
 	(wire
 		(pts
@@ -3011,16 +2991,6 @@
 		)
 		(uuid "6e200971-ac07-4a77-8324-3d5f4aacad27")
 	)
-	(label "GND"
-		(at 264.16 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8564f1ce-9311-42ee-b815-629453d08252")
-	)
 	(label "VCC_5V0"
 		(at 176.53 57.15 0)
 		(effects
@@ -3040,16 +3010,6 @@
 			(justify right bottom)
 		)
 		(uuid "8ea63b45-cb44-4127-9f03-2f14c7f65302")
-	)
-	(label "VCC_5V0"
-		(at 264.16 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "98eef6ac-d25a-4dd1-bea1-1ef324032b86")
 	)
 	(label "VCC_5V0"
 		(at 215.9 78.74 180)
@@ -5727,75 +5687,6 @@
 			(project ""
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 264.16 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff73cf7a-f262-483e-9bbc-bab1536a1354")
-		(property "Reference" "C24"
-			(at 264.414 117.094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 264.414 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 265.1252 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 264.16 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 264.16 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e1a921be-148c-4772-8885-9a5ef3a1b375")
-		)
-		(pin "1"
-			(uuid "5ab0ed39-8c71-4592-b5a7-67f81bf3888a")
-		)
-		(instances
-			(project "lidar_camera_sync"
-				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/0b6b94a8-cd2e-4bd4-bd71-15c1d3af12a3"
-					(reference "C24")
 					(unit 1)
 				)
 			)

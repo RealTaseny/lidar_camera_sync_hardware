@@ -1729,10 +1729,6 @@
 		(uuid "a6428654-21fa-420c-9bd3-70849b3a8ca3")
 	)
 	(no_connect
-		(at 144.78 120.65)
-		(uuid "bd47dc1a-f20d-4d9d-b49b-6b252bcd01b3")
-	)
-	(no_connect
 		(at 109.22 95.25)
 		(uuid "bee4e483-e1fa-45f4-bb09-039600e83197")
 	)
@@ -1821,6 +1817,16 @@
 			(type default)
 		)
 		(uuid "21a66c4f-cb6c-4769-8594-dba1253a22d7")
+	)
+	(wire
+		(pts
+			(xy 144.78 120.65) (xy 149.86 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "250b74a5-ca3e-437b-b720-f7b977bf293f")
 	)
 	(wire
 		(pts
@@ -2674,6 +2680,17 @@
 			(justify right)
 		)
 		(uuid "29f42fe2-ed65-47f4-b44a-57132459d475")
+	)
+	(hierarchical_label "LED_DOUT"
+		(shape input)
+		(at 149.86 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "313afcb8-cc4a-4315-84ac-a820d2a2947e")
 	)
 	(hierarchical_label "USART2_RXD"
 		(shape input)

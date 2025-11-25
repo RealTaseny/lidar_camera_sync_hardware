@@ -25,6 +25,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 78.74) (xy 86.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e17fce8-f562-42f6-8af4-39eb0b20211a")
+	)
+	(wire
+		(pts
 			(xy 104.14 101.6) (xy 110.49 101.6)
 		)
 		(stroke
@@ -399,6 +409,16 @@
 				(justify right)
 			)
 		)
+		(pin "LED_DOUT" input
+			(at 86.36 78.74 270)
+			(uuid "197869ce-9f70-4479-85c6-4db7250c3d8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab"
@@ -514,6 +534,16 @@
 		(pin "12V_CAMERA" output
 			(at 104.14 109.22 0)
 			(uuid "9c5d546d-3d00-4998-9722-dc8c8f2cd4f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_DIN" input
+			(at 86.36 91.44 90)
+			(uuid "e2f52673-8c2d-44e7-bff7-227ca08c013c")
 			(effects
 				(font
 					(size 1.27 1.27)

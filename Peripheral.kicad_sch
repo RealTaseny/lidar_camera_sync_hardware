@@ -678,6 +678,261 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LED:WS2812B"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2812B"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812B_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812B_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812B_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lidar_camera_sync:AMS1117-5.0"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1018,42 +1273,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "BM08B-GHS-TBT(LF)(SN)_0_1"
 				(rectangle
@@ -1077,6 +1296,44 @@
 					(fill
 						(type color)
 						(color 0 0 0 0)
+					)
+				)
+			)
+			(symbol "BM08B-GHS-TBT(LF)(SN)_1_0"
+				(pin no_connect line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -2056,6 +2313,12 @@
 		(uuid "0e764f69-1f16-41df-9ad4-0659643c6f5f")
 	)
 	(junction
+		(at 157.48 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12d69275-c984-493e-acdb-bf73894e8567")
+	)
+	(junction
 		(at 93.98 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2110,10 +2373,20 @@
 		(uuid "ceada895-f59c-4f73-a08d-bdfbd1f7fee8")
 	)
 	(junction
+		(at 46.99 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d89cc182-7290-4727-b1c5-ce721aadbf11")
+	)
+	(junction
 		(at 121.92 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6fe375f-f1fe-4b91-8c00-66e5d2bad51f")
+	)
+	(no_connect
+		(at 54.61 101.6)
+		(uuid "2143e072-f8a6-4911-918f-49908543c467")
 	)
 	(no_connect
 		(at 166.37 101.6)
@@ -2269,6 +2542,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 128.27) (xy 161.29 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ffee636-aa7f-41af-85d8-ee4223065021")
+	)
+	(wire
+		(pts
 			(xy 100.33 125.73) (xy 93.98 125.73)
 		)
 		(stroke
@@ -2306,6 +2589,26 @@
 			(type default)
 		)
 		(uuid "2bd72c5a-0829-43dd-8964-d987ea8b50ab")
+	)
+	(wire
+		(pts
+			(xy 133.35 129.54) (xy 133.35 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df1dce7-1b36-4e09-862b-4687061d9630")
+	)
+	(wire
+		(pts
+			(xy 46.99 85.09) (xy 46.99 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30875888-68dd-49fd-ad75-47184921d56d")
 	)
 	(wire
 		(pts
@@ -2479,6 +2782,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 101.6) (xy 39.37 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ce98c6-c5cc-40a1-858d-0312a38d835b")
+	)
+	(wire
+		(pts
 			(xy 157.48 93.98) (xy 189.23 93.98)
 		)
 		(stroke
@@ -2489,6 +2802,26 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 139.7) (xy 121.92 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59adbfa2-e243-4a68-a424-b7862206bb43")
+	)
+	(wire
+		(pts
+			(xy 46.99 109.22) (xy 46.99 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59f7718b-d121-4631-9013-730c1503a21a")
+	)
+	(wire
+		(pts
 			(xy 81.28 134.62) (xy 81.28 137.16)
 		)
 		(stroke
@@ -2496,6 +2829,16 @@
 			(type default)
 		)
 		(uuid "5a1fbf1e-aadc-4529-be41-ea47ba3a4999")
+	)
+	(wire
+		(pts
+			(xy 49.53 90.17) (xy 46.99 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5da63536-4a1e-4de3-a13e-35bf642b9c58")
 	)
 	(wire
 		(pts
@@ -2569,6 +2912,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 125.73) (xy 157.48 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d0e578c-0ce3-4a4b-afa2-95f85f119dae")
+	)
+	(wire
+		(pts
 			(xy 67.31 60.96) (xy 72.39 60.96)
 		)
 		(stroke
@@ -2629,6 +2982,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 90.17) (xy 62.23 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79b4a7d5-08a8-4506-8a94-66eca1b6f0bf")
+	)
+	(wire
+		(pts
 			(xy 93.98 137.16) (xy 81.28 137.16)
 		)
 		(stroke
@@ -2679,7 +3042,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 128.27) (xy 161.29 128.27)
+			(xy 152.4 128.27) (xy 157.48 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2696,6 +3059,16 @@
 			(type default)
 		)
 		(uuid "8ba1b4e5-0d58-43b2-acf7-7fe1e2ced007")
+	)
+	(wire
+		(pts
+			(xy 157.48 115.57) (xy 157.48 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f7db8ff-6b39-4351-8030-ff0a7d32cd58")
 	)
 	(wire
 		(pts
@@ -2749,6 +3122,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 139.7) (xy 133.35 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a59b6a80-4314-4fda-b9f4-c69748ba8854")
+	)
+	(wire
+		(pts
 			(xy 95.25 68.58) (xy 110.49 68.58)
 		)
 		(stroke
@@ -2776,6 +3159,16 @@
 			(type default)
 		)
 		(uuid "ac3e4f4e-511d-4aaa-9c63-c6688130a3fb")
+	)
+	(wire
+		(pts
+			(xy 121.92 129.54) (xy 121.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff0ab8d-5321-4eb9-9659-ff11ed4e66ea")
 	)
 	(wire
 		(pts
@@ -2899,6 +3292,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 90.17) (xy 46.99 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e71bbf5e-d82e-4f1d-a3c0-d555e9de8449")
+	)
+	(wire
+		(pts
 			(xy 114.3 71.12) (xy 110.49 71.12)
 		)
 		(stroke
@@ -2977,6 +3380,26 @@
 		)
 		(uuid "fefe40fc-fe86-419b-983b-4fabe6c17c0f")
 	)
+	(label "GND"
+		(at 46.99 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1becabf9-e649-48d7-b7c0-c7f145ce23fb")
+	)
+	(label "12V_CAMERA"
+		(at 121.92 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "20679b8e-ea85-483f-8561-4dde22e31553")
+	)
 	(label "5V_LIDAR"
 		(at 149.86 104.14 0)
 		(effects
@@ -3007,6 +3430,16 @@
 		)
 		(uuid "27f794e6-ada8-4bd0-931b-ee57ecd4bf12")
 	)
+	(label "GND"
+		(at 121.92 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b86c525-05cf-49f3-9c43-1c36ad8a9da8")
+	)
 	(label "VDC_LIDAR"
 		(at 60.96 125.73 180)
 		(effects
@@ -3026,6 +3459,16 @@
 			(justify right bottom)
 		)
 		(uuid "2fb13f00-a05b-4996-be49-0020d212a169")
+	)
+	(label "VDC_LIDAR"
+		(at 133.35 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33f3043a-d0a9-408d-ba46-ef4d64de8765")
 	)
 	(label "GND_LIDAR"
 		(at 157.48 92.71 180)
@@ -3127,6 +3570,26 @@
 		)
 		(uuid "7a5ffcd4-c672-4f8e-8a7a-8fd5453ce574")
 	)
+	(label "GND"
+		(at 157.48 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f58c2a8-e590-450f-a30a-669bafba9773")
+	)
+	(label "VCC_5V0"
+		(at 46.99 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ff13ab7-511a-4e6e-8ef9-b80e014a9461")
+	)
 	(label "C1+"
 		(at 31.75 62.23 180)
 		(effects
@@ -3156,6 +3619,16 @@
 			(justify right bottom)
 		)
 		(uuid "8bce2c83-eee8-4a29-8ec1-ca07c7ae3cd9")
+	)
+	(label "GND_LIDAR"
+		(at 133.35 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8cec2758-ea40-4782-ac7b-251803e69c54")
 	)
 	(label "V-"
 		(at 67.31 73.66 180)
@@ -3297,6 +3770,16 @@
 		)
 		(uuid "d9a8fbf7-54d0-4d4a-84f3-d4b0d37c7650")
 	)
+	(label "GND"
+		(at 62.23 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0373a4c-8c75-4574-b2b2-194649be8cfb")
+	)
 	(label "C1-"
 		(at 67.31 66.04 180)
 		(effects
@@ -3358,6 +3841,17 @@
 			(justify right)
 		)
 		(uuid "31f1b93e-7832-4bf2-b2de-70f3f420d916")
+	)
+	(hierarchical_label "LED_DIN"
+		(shape input)
+		(at 34.29 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56204a8b-f1e8-4e1c-bab9-db57dedea55b")
 	)
 	(hierarchical_label "12V_CAMERA"
 		(shape output)
@@ -3629,6 +4123,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 121.92 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25f92265-861e-4f00-9760-2bd87d6bf25a")
+		(property "Reference" "C24"
+			(at 122.682 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 122.682 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
+			(at 122.8852 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 121.92 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc4cab1a-e3c3-4bda-9b7f-09ea0f87ab4e")
+		)
+		(pin "2"
+			(uuid "d7d94c5e-1241-4dcb-9fbb-f8dcefce241d")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/7a4cebd7-c810-4cc3-a455-f682cc3c6ad0"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 157.48 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28d4a5f0-b085-4aa8-9a56-c2194a4182fb")
+		(property "Reference" "C36"
+			(at 156.718 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 156.718 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
+			(at 156.5148 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 157.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01e2868e-08a6-460b-88f0-91716d0fd7ee")
+		)
+		(pin "2"
+			(uuid "095ba57e-b13e-4700-a47d-aa3c9f44256e")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/7a4cebd7-c810-4cc3-a455-f682cc3c6ad0"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 69.85 132.08 0)
 		(unit 1)
@@ -3692,6 +4324,144 @@
 			(project "lidar_camera_sync"
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/7a4cebd7-c810-4cc3-a455-f682cc3c6ad0"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 53.34 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cf0962b-d5ce-4ac4-bef1-b05a59ed2578")
+		(property "Reference" "C37"
+			(at 51.816 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 60.706 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 57.15 89.2048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 53.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "62af0e46-e292-46e0-a71b-cf3904c10717")
+		)
+		(pin "1"
+			(uuid "0ae63b52-dbb5-49d9-b9b1-404d385e894e")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/7a4cebd7-c810-4cc3-a455-f682cc3c6ad0"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 133.35 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "305a477c-4d32-4636-b4b8-14dd0560c05e")
+		(property "Reference" "C35"
+			(at 134.112 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 134.112 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
+			(at 134.3152 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 133.35 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28a4a1c5-17d1-44da-8ddc-3e8ae6df46c1")
+		)
+		(pin "2"
+			(uuid "1a9366cb-c0ce-4b12-bbb1-d0364884eceb")
+		)
+		(instances
+			(project "lidar_camera_sync"
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/7a4cebd7-c810-4cc3-a455-f682cc3c6ad0"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -3989,6 +4759,82 @@
 			(project ""
 				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/7a4cebd7-c810-4cc3-a455-f682cc3c6ad0"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 46.99 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66a98c67-740b-4763-81b7-6d5071949c5b")
+		(property "Reference" "D3"
+			(at 58.42 95.1798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 58.42 97.7198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 48.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 49.53 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 46.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c733a6d2-2f1b-40fe-a92f-78d33f765011")
+		)
+		(pin "1"
+			(uuid "a985ab24-4d3d-4876-9884-41c6b81df75d")
+		)
+		(pin "3"
+			(uuid "d27ff566-1e53-4904-a0ba-f6efa97d2a2d")
+		)
+		(pin "2"
+			(uuid "a15138c6-fd28-44ce-a452-3e68a127f0d7")
+		)
+		(instances
+			(project ""
+				(path "/4d41fa76-12ab-4867-bf30-96d46704f2ab/7a4cebd7-c810-4cc3-a455-f682cc3c6ad0"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4349,7 +5195,7 @@
 		(pin "2"
 			(uuid "269859eb-cc95-4fb5-88d2-44e4a2838cb1")
 		)
-		(pin "10"
+		(pin "P2"
 			(uuid "fd97c4e4-e180-4379-a451-b1b82589c5a2")
 		)
 		(pin "8"
@@ -4364,7 +5210,7 @@
 		(pin "1"
 			(uuid "ae390bf8-24aa-497b-8f81-5bd75b2ffc75")
 		)
-		(pin "9"
+		(pin "P1"
 			(uuid "c1ed7efc-5498-4a8c-8b9e-7026e735ef76")
 		)
 		(pin "6"
